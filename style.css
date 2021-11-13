@@ -65,15 +65,93 @@ h1 {
     text-align:center;
 }
 
-
+ h2 {
+    text-transform: uppercase;
+    font-size:3rem;
+    margin: 0;
+    letter-spacing: .4rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+                  h3 {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow: #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+                
+                  h4 {
+    text-transform: uppercase;
+    font-size:1rem;
+    top-margin: 4rem;
+    letter-spacing: .25rem;
+    color:darkred;
+     padding-bottom: .5rem;           
+    text-shadow: #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center; 
+                                 h5 {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    padding-bottom: .5rem;
+    padding-top:   .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;            
+    background-color: #333;
+    foreground-color: #FFF;            
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+} 
 /* Section & Paragraph */
 
-
+  section { top-margin: .5rem;
+                
+                }
+paragraph { top-margin: 1rem;
+                bottom-margin: 1rem;
+             left-margin: auto;
+                right-margin: aunto;
+                top-padding: 0rem;
+                bottom-padding: 0rem;
+                left-padding: 1rem;
+                right-padding: 1rem;
+                width:90% 
+                text-align:left;
+                
+                }
 
 /* Image & Figure */
 
-
+ figure {
+                bottom-margin: 2rem;
+                }
+                figcaption {
+                top-padding: .5rem;
+                 text-align: right;
+                }
+                
+                   img {
+          display: block;
+          margin: 0 auto 0 auto;
+          width: 100%
+           max-width: 50rem;
+         }
 
 /* Footer */
-
+ footer {
+                border-top: 2rem solid #333;
+                top-padding: 1rem;
+                bottom-padding: 1rem;
+                right-padding: 1rem;
+                left-padding: 1rem;
+                }
 
